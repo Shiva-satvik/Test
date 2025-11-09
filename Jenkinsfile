@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourname/jenkins-ci-demo.git'
+                git 'https://github.com/Shiva-satvik/Test.git'
             }
         }
 
@@ -39,3 +39,4 @@ pipeline {
         }
     }
 }
+
